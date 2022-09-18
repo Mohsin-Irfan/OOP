@@ -1,0 +1,16 @@
+class student:
+  def __init__(self,roll,name,clas):
+    self.roll = roll
+    self.name = name
+    self.clas = clas
+  def myfunc(self):
+    return f'Student Roll: {self.roll}\nStudent Name: {self.name}\nClass: {self.clas}'
+p11 = student(1, 'Mohsin Irfan', 'X')
+print(p11.roll)
+print(p11.name)
+print(p11.clas)
+print("")
+p12 = student(2, 'Harris Irfan', 'XII')
+print(p12.roll)
+print(p12.name)
+print(p12.clas)
