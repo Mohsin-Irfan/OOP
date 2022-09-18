@@ -1,0 +1,16 @@
+class Student:
+    student_Count = 0
+    def __init__(self):  
+        self.name = input('Enter student name:  ')
+        self.rollno = input('Enter student rollno:  ')
+        Student.student_Count += 1
+    def display(self):  
+        print("Name:", self.name, "Rollno:", self.rollno)
+  
+stu1 = Student()
+stu1.display()
+stu2 = Student()
+stu2.display()
+stu3 = Student()
+stu3.display()
+print('Total no. of students:', Student.student_Count)
